@@ -1,0 +1,21 @@
+<%=provide(:title, 'Login') %>
+<%=content_for(:login, 'Login')%>
+<div class="row">
+	<div class="col-sm-5 col-sm-offset-4" style="padding-top: 15rem;">
+	 <h2 class="form-signin-heading">Please sign in</h2>
+	  	<% if flash[:notice] %>
+    			<div class="notice text-center" style="color: red"><%= flash[:notice] %></div>
+  		<% end %>
+		<div class="form-signin">
+			<%= form_for(:session,  url: login_path) do |f| %>
+				<%= f.label :name %>
+				<%= f.text_field :name, class: "form-control" %>
+				<%= f.label :password %>
+				<%= f.password_field :password, class: "form-control" %>
+				<%= f.submit 'Sign in', class: "btn btn-lg btn-primary btn-block" %>
+			<%end%>
+		</div>
+	</div>
+</div>
+
+	

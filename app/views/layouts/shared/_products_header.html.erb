@@ -1,0 +1,75 @@
+ <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to 'DAS HÖRGERÄTE-ATELIER GMBH',  root_path, class: 'navbar-brand visible-lg', style: "color: #3EB835;"%>
+          <%= link_to 'DAS HÖRGERÄTE-ATELIER GMBH',  root_path, class: 'navbar-brand visible-xs visible-sm', style: "color: #3EB835; font-size: .9em"%>
+        </div>
+        <% if cookies[:dash_horgerate] == "de" %>
+          <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left de_locale">
+          <li><%= link_to t('.home') , root_path, class: 'active'%></li>
+          <li>
+            <%= link_to t('.about') , about_path%>
+          </li>
+          <li>
+            <%= link_to t('.products') , products_categories_soft_path%>
+          </li>
+          <li>
+            <%= link_to t('.order') , order_now_path%>
+          </li>
+          <li>
+            <%= link_to t('.contact') , contact_path%>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+           <li>
+            <p style="margin-bottom: 0;">
+              <%=t('.call') %> <br>
+              <span>+4 915 779 043 003</span>              
+            </p>
+              <p class="lang">
+                <%= link_to 'DE', change_locale_path(:de), style: 'padding-right: 1em'%>|
+                <%= link_to 'EN', change_locale_path(:en), style: 'padding-left: 1em'%>
+              </p>
+           </li>
+        </ul>
+      </div>
+        <%else%>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+          <li><%= link_to t('.home') , root_path, class: 'active'%></li>
+          <li>
+            <%= link_to t('.about') , about_path%>
+          </li>
+          <li>
+            <%= link_to t('.products') , products_categories_soft_path%>
+          </li>
+          <li>
+            <%= link_to t('.order') , order_now_path%>
+          </li>
+          <li>
+            <%= link_to t('.contact') , contact_path%>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+           <li>
+            <p style="margin-bottom: 0">
+              <%=t('.call') %> <br>
+              <span>+4 915 779 043 003</span>              
+            </p>
+              <p class="lang">
+                <%= link_to 'DE', change_locale_path(:de), style: 'padding-right: 1em'%>|
+                <%= link_to 'EN', change_locale_path(:en), style: 'padding-left: 1em'%>
+              </p>
+           </li>
+        </ul>
+      </div>
+        <%end%>
+    </div>
+  </div>

@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <title><%=yield(:title)  %> - DAS HÖRGERÄTE-ATELIER GMBH</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
     
     
   </head>
 
   <body>
+  <% if yield(:page_admin) != "admin" %>
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -86,6 +90,9 @@
         <%end%>
     </div>
   </div>
+  <%else%>
+  <%= render "layouts/shared/admin_header" %>
+  <%end%> 
 <% if yield(:home_page) == 'home' %>
 	<style type="text/css">
 		body {
@@ -148,8 +155,18 @@
     <%= render 'pages/shared/product' %>
     <%= yield %>
     <%= render 'layouts/shared/footer' %>
+  <%elsif yield(:page_admin)%>
+  <style type="text/css">
+      body {
+        background-color: #ffffff;
+        padding-top: 0;
+      }
+    </style>
+    <div class="container-fluid">
+    <%= yield %>
+    </div>
+  
   <%else%>
-
 	<div class="container">
 	<!-- <p id="notice"><%= notice %> </p> -->
 	       <%= yield %>
