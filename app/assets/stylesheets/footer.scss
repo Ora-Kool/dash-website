@@ -84,7 +84,33 @@ $text-color: #fff;
 
 }
 
+.contact {
 
+  ul li a {
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    background-color: inherit;
+  }
+
+
+  p{
+    a {
+      color: #646464;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+
+    }
+
+    a:hover{
+      color: #ffffff;
+      text-decoration: none;
+      background-color: inherit;
+    }
+  }
+}
 
 .footer-links {
 
@@ -96,6 +122,7 @@ $text-color: #fff;
 
     a {
       color: #646464;
+      text-decoration: none;
       font-weight: 700;
       font-size: 15px;
 
