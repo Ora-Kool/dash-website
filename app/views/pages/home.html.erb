@@ -1,0 +1,99 @@
+<%provide(:title, 'Home') %>
+<% content_for(:home_page, 'home')%>
+ <div class="row" style="margin: 10px; background-color: white">
+ <div class="col-sm-12" style="margin-top: 1rem; margin-bottom: 1rem">
+ 	<h3 class="text-center">
+		<%=t('.intro') %>
+		
+ 	</h3>
+ </div>
+ <div class="col-sm-12">
+ 	<div class="row">
+ 		<div class="col-sm-6 image" style="padding: 4rem;">
+ 			<h2><%=t('.soft_caption') %> </h2>
+ 			<%= image_tag('vimto1.png') %>
+ 			<%=link_to t('.soft_caption_btn') , products_categories_soft_path %>
+ 		</div>
+ 		<div class="col-sm-6 image" style="padding: 4rem">
+ 			<h2><%=t('.energy_caption')%> </h2>
+ 			<%= image_tag('redbull3.png') %>
+ 			<%=link_to t('.energy_caption_btn') , products_energy_drinks_path  %>
+ 		</div>
+ 	</div>
+ </div>
+</div>
+ <div style="padding: 0; margin: 0; width: 100%;" class="vimto-background">
+ <%=render 'slide-show-bottom' %>
+ </div>
+<div class="row" style="width: 100%">
+	<div class="col-sm-12 text-center" style="margin-bottom: 2rem">
+ 			<h4 style="text-transform: uppercase"><%=t('.testimony') %> </h4>
+ 			<p>
+ 				<%=t('.t_caption')%>
+ 				<hr style="width: 5%; border-bottom: .2em solid #A82149;">
+ 			</p>
+
+ 	<div class="row">
+ 		<div class="col-sm-4 testimonials">
+ 		<h3>A. Pierre</h3>
+
+ 			<%=image_tag('bar1.png')%>
+ 			 				
+				
+ 			<p>
+ 				<%=t('.first_t') %>
+
+ 				
+ 			</p>
+ 		
+ 				<p class="bar">
+ 					Bar 7088, France
+ 				</p>
+ 		</div>
+ 		<div class="col-sm-4 testimonials">
+ 		<h3>K. Isaac</h3>
+
+ 			<%=image_tag('soft-drinks-bar.png')%>
+ 			 				
+				
+ 			<p>
+ 				<%=t('.second_t') %>
+ 			</p>
+ 		
+ 				<p class="bar">
+ 					<%=t('.soft_drinks')%>
+ 				</p>
+ 		</div>
+ 		<div class="col-sm-4 testimonials">
+ 		<h3>Nick P</h3>
+
+ 			<%=image_tag('russia.png')%>
+ 			 				
+				
+ 			<p>
+ 				<%=t('.third_a') %><br>
+ 				<%=t('.third_t') %>
+
+
+ 				
+ 			</p>
+ 		
+ 				<p class="bar">
+ 					Russia
+ 				</p>
+ 		</div>  
+  
+</div>
+ 	</div>
+
+</div>
+</div>
+
+<div class="col-sm-12">
+	<div class="row">
+		<div class="col-sm-4">
+			
+		</div>
+	</div>
+</div>
+

@@ -1,0 +1,31 @@
+// Place all the styles related to the Sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.login-style{
+	background: transparent;
+	z-index: 99;
+	border-color: #eceff1;
+	border: .1em solid #eceff1;
+	padding: 3em;
+	margin-bottom: 3em;
+}
+.teddy-left {
+}
+
+#session_user_name, #session_password {
+	height: 4rem;
+}
+.shadow {
+  -moz-box-shadow:    3px 2px 2px 2px #fafafa;
+  -webkit-box-shadow: 3px 2px 2px 2px #fafafa;
+  box-shadow:         3px 2px 2px 2px #fafafa;
+}
+
+a.password_reset:hover {
+	background: transparent;
+	text-decoration: none;
+	color: #757575;
+}
+.not_registered {
+	color: #d50000;
+}

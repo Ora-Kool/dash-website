@@ -1,0 +1,15 @@
+<%provide(:title, t('.order_header') ) %>
+<% content_for(:page_header, 'Order Now') %>
+<div class="row" style="width: 100%">
+	<div class="col-sm-12 text-center">
+		<p style="margin-top: 2em; ">
+				<%=t('.order_intro')%>
+		</p>
+		<hr style="width: 10%; border-bottom: 2px solid #2e7d32">
+	</div>
+
+	<div class="col-sm-12" style="padding-left: 6em; padding-right: 4em; padding-top: 2em">
+		<%= render 'pages/shared/order_form' %>
+	</div>
+</div>
+

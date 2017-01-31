@@ -1,0 +1,82 @@
+de:
+  layouts:
+    application:
+      home:   "ZUHAUSE"
+      about:  "ÜBER UNS"
+      products: "ERZEUGNISSE"
+      order:  "JETZT BESTELLEN"
+      contact:  "KONTAKTIERE UNS"
+      call:   "Für Bestellungen rufen Sie bitte an"
+  pages:
+    shared:
+    contact_us:
+      contact_header: "Kontaktiere uns"
+      contact_infos: "KONTAKT INFOS"
+      opening_hrs:  "ÖFFNUNGSZEITEN"
+      head_office:  "HAUPTBÜRO"
+      branch_office:  "NIEDERLASSUNG"
+      contact_form:  "KONTAKT FORMULAR"
+      name_holder: "Vorname"
+      email_holder: "Email"
+      phone_holder:  "Telefonnummer"
+      subject_holder: "Subject"
+      content_holder: "Inhalt"
+      submit_now: "JETZT ABSENDEN"
+
+    order_now:
+      order_intro: "Um einen Auftrag mit uns zu besprechen, füllen Sie bitte unten Ihre Details aus und ein Mitglied unseres Teams wird sich so bald wie möglich mit Ihnen in Verbindung setzen."
+      order_header:  "Jetzt bestellen"
+      submit_now: "JETZT ABSENDEN"
+      nb_holder:  "Ihr Name / Firmenname"
+      email: "E-Mail-Addresse"
+      phone: "Telefonnummer"
+      message: "Nachricht / Bestellung Details"
+    categories:
+      category: "Kategorien"
+      soft_drinks:  "ALKOHOLFREIE GETRÄNKE"
+      pet_bottles:  "HAUSTIER-FLASCHEN"
+      energy_drinks: "ENERGY-DRINKS"
+      beer_cat:   "BIER"
+      mineral_water:  "MINERALWASSER"
+      spirits_cat:  "SPIRITUOSEN"
+      pet_header:   "Haustier-Flaschen"
+      energy_header: "Energy Drinks"
+      beer_header:  "Bier"
+      mineral_water_header:   "Mineralwasser"
+      spirits_header:   "Spirituosen"
+    about_header:
+      about_intro: "Wir sind ein führender Lieferant für alkoholfreie Getränke, Energy Drinks und Bier für Großhändler, Shop und Convenience Stores"
+      about_us: "Ist ein wesentliches Bier, Spirituosen, Energy Drinks, Softdrinks und Mineralwasserlieferanten für EU-Länder und weltweit tätige Betriebe.
+     Es ist unsere Aufgabe als Bier, Geist, Energy-Drinks, alkoholfreie Getränke und Mineralwasser-Anbieter, um die Bereitstellung von Groß-Produkten für unsere Kunden zu gewährleisten. Unser Ziel ist es, alle Ihre Anforderungen zu erfüllen. Großes Bier, alkoholfreies Getränk, Energiegetränke, Spirituosen und Mineralwasser sind unsere Spezialität.
+    Kontaktieren Sie uns für weitere Informationen über unsere Großhandel Produkte."
+    slide-show-bottom:
+      great_s:  "“Toller Service und tolle Preise!”"
+      great_intro:  "Großer Service von DAS HÖRGERÄTE-ATELIER GMBH;"
+      great_com: "Jeder ist sehr professionell und freundlich.Toller Service und tolle Preise! "
+      fantas: "“Fantastischer Service”"
+      fantas_intro: "Es ist so erfrischend, mit DAS HÖRGERÄTE-ATELIER GMBH umzugehen;" 
+      fantas_intro2:  "Ehrliche Leute und ehrliche Preise, die einen fantastischen" 
+      fantas_intro3: "Service direkt zu allen unseren Speichern liefern!"
+      out_door: "Gehen Sie im Freien"
+      one_stop:  "“Mein One-Stop-Shop für Getränke!”"
+      one_stop_intro:  "DAS HÖRGERÄTE-ATELIER GMBH sind meine One-Stop-Shop für Softdrinks," 
+      one_stop_intro2: "Energy Drinks, Bier, Mineralwasser und Spirituosen."
+      bar_dealer: "Bar-Händler"
+    home:
+      soft_caption: "Alkoholfreie Getränke"
+      soft_caption_btn:  "Alle alkoholfreien Getränke-Marken"
+      energy_caption: "Energy-Drinks"
+      energy_caption_btn: "Alle Energy-Drink-Marken"
+      soft_drinks: "Soft-Drink-Agentur"
+      intro: "Unsere Produkte werden bundesweit in unserem eigenen Fahrzeugpark direkt aus unserem Distributionszentrum
+       in Deutschland ausgeliefert. Sicherstellen, dass unsere Produkte unsere Kunden hygienisch, in einwandfreiem Zustand und pünktlich erreichen."
+      testimony: "Erfahrungsberichte"
+      t_caption: "Lesen Sie, was die Leute über unser Produkt und unsere Dienstleistungen sagen"
+      first_t:  "\"Die DAS HÖRGERÄTE-ATELIER GMBH ist großartig und versteht, wie unsere Bar läuft. Ehrlich, flexibel und mit einigen wirklich guten Ratschläge - sehr empfehlenswert.\""
+      second_t: "\"Wir arbeiten seit über einem Jahr mit der DAS HÖRGERÄTE-ATELIER GMBH zusammen und bewundern weiterhin ihre Herangehensweise an die Versorgung mit alkoholfreien Getränken, wobei wir einen modernen Ansatz verfolgen, um die Ware termingerecht zu beliefern. Sie sind sehr geradlinig, wenn es darum geht, Waren an uns zu liefern.\""
+      third_a:  "\"Absolut hervorragend\""
+      third_t:  "\"Pünktliche Lieferung. Große Vielfalt und detaillierte Verkostungsnotizen. Ich mag auch die Tatsache, dass es internationale und australische Biere enthält.\""
+
+
+
+

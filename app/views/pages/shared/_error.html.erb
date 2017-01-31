@@ -1,0 +1,11 @@
+<!-- <p id="notice"><%= notice %> </p> -->
+  <% flash.each do |message_type, message| %>
+    <% if message_type == 'not_registered' %>
+    <%else%>
+      <div class="<%=message_type %>">
+        <!--<button class="close-button" data-close>&times;</button>-->
+        <p class="text-center"><%= message %>.</p>
+      </div>
+    <%end%>
+
+<% end %>

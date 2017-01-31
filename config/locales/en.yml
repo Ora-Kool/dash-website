@@ -1,0 +1,110 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  layouts:
+    application:
+      home:   "HOME"
+      about:  "ABOUT US"
+      products: "PRODUCTS"
+      order:  "ORDER NOW"
+      contact:  "CONTACT US"
+      call:   "For orders please call"
+  pages:
+    shared:
+    contact_us:
+      contact_header: "Contact Us"
+      contact_infos: "CONTACT INFO"
+      opening_hrs:  "OPENING HOURS"
+      head_office:  "HEAD OFFICE"
+      branch_office:  "BRANCH OFFICE"
+      contact_form:  "CONTACT FORM"
+      name_holder: "First name"
+      email_holder: "Email"
+      phone_holder:  "Phone number"
+      subject_holder: "Subject"
+      content_holder: "Content"
+      submit_now: "SUBMIT NOW"
+
+    order_now:
+      order_intro: "To discuss an order with us please fill out your details below and a member of our team will
+      <br> be in touch with you as soon as possible."
+      order_header:  "Order Now"
+      submit_now: "SUBMIT NOW"
+      nb_holder:  "Your name / Business name"
+      email: "Email address"
+      phone: "Phone number"
+      message: "Message / Order details"
+    categories:
+      category: "Categories"
+      soft_drinks:  "SOFT DRINKS"
+      pet_bottles:  "PET BOTTLES"
+      energy_drinks: "ENERGY DRINKS"
+      beer_cat:   "BEER"
+      mineral_water:  "MINERAL WATER"
+      spirits_cat:  "SPIRITS"
+      pet_header:   "Pet Bottles"
+      energy_header: "Energy Drinks"
+      beer_header:  "Beer"
+      mineral_water_header:   "Mineral Water"
+      spirits_header:   "Spirits"
+    about_header:
+      about_intro: "We are a leading supplier for soft drinks, energe drinks and beer to wholesalers,
+      <br>shop and convenience stores"
+      about_us: "is an essential beer, spirits, energy drinks, soft drinks and bottled water supplier covering EU countries and with operations worldwide.
+
+    It is our job as beer, spirit, energy drinks, soft drinks and bottled water supplier, to ensure the provision of wholesale products to our customers. Our target is to fulfil all your requirements. Wholesale beer, soft drink, energy drinks, spirits and bottled water are our speciality.
+
+   contact us for more information regarding our wholesale products."
+    slide-show-bottom:
+      great_s:  "“Great service and great prices!”"
+      great_intro:  "Great service from DAS HÖRGERÄTE-ATELIER GMBH;"
+      great_com: "everyone is
+very professional and friendly. Great service and great prices! "
+      fantas: "“Fantastic service”"
+      fantas_intro: "It’s so refreshing to deal with DAS HÖRGERÄTE-ATELIER GMBH;
+      <br> honest people and honest prices delivering a fantastic service direct 
+      <br> to all our stores!"
+      out_door: "Go Outdoors"
+      one_stop:  "“My one stop shop for drinks!”"
+      one_stop_intro:  "DAS HÖRGERÄTE-ATELIER GMBH are my one stop shop for soft drinks,
+      <br> energy drinks, beer, mineral water and spirits."
+      bar_dealer: "Bar dealer"
+    home:
+      soft_caption: "Soft drinks"
+      soft_caption_btn:  "View all soft drink brands"
+      energy_caption: "Energy drinks"
+      energy_caption_btn: "View all energy drink brands"
+      soft_drinks: "Soft Drink agency"
+      intro: "Our products are delivered nationwide in our own fleet of vehicles
+direct from our distribution centre in Germany. Ensuring our products
+reach our customers hygienically, in perfect condition and on time."
+      testimony: "Testimonials"
+      t_caption: "Read what people say about our product and services"
+      first_t:  "\"The DAS HÖRGERÄTE-ATELIER GMBH is great and understands the way our bar runs. Honest,
+       flexible and with some really great advice - highly recommended.\""
+      second_t: "\"We’ve worked with DAS HÖRGERÄTE-ATELIER GMBH for over a year and continue to admire their approach to soft drinks supply, taking a modern
+        approach to deliever the goods on time as agreed. They are
+        very straight forward when it comes to supplying goods to us.\""
+      third_a:  "\"Absolutely excellent\""
+      third_t:  "\"On time delivery. Great varity and detailed tasting notes. I also like the fact it contains International and Australian beers.\""
+
+

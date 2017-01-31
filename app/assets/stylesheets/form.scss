@@ -1,0 +1,51 @@
+input.form-control {
+	height: 3em;
+	margin-bottom: 2%;
+	border-radius: 0;
+	font-style: italic;
+
+}
+
+textarea.form-control {
+	border-radius: 0;
+	resize: none;
+	font-style: italic;
+	padding-left: 1.2em;
+}
+
+ul.open-hours {
+	list-style-type: none;
+	padding: 0;
+	line-height: 1.75em;
+
+	li {
+	 color: #616161;
+	 padding-bottom: .5em;
+	}
+}
+ul.office {
+	list-style-type: none;
+	padding: 0;
+	li {
+	 color: #616161;
+	 padding-bottom: .5em;
+	 font-size: .9em;
+	}
+
+}
+a, a:hover, a:focus, a:active, a.active {
+    	transition: all 0.4s;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    	outline: none;
+        outline-width: medium;
+        outline-style: none;
+        outline-color: -moz-use-text-color;
+    	text-decoration: none;
+        text-decoration-color: -moz-use-text-color;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+    	color: inherit;
+}

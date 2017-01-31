@@ -1,0 +1,47 @@
+<div class="header-common">
+    <%if yield(:title) == "Pet Bottles" %>
+        <%=image_tag('soft-drinks-banner.png', class: 'img-responsive') %>
+    	<h3 style="left: 35%"><%= yield(:title) %></h3>
+
+    <%elsif yield(:title) == "Haustier-Flaschen" %>
+         <%=image_tag('soft-drinks-banner.png', class: 'img-responsive') %>
+        <h3 style="left: 25%"><%= yield(:title) %></h3>
+
+    <%elsif yield(:title) == "Energy Drinks" %>
+        <%=image_tag('soft-drinks-banner.png', class: 'img-responsive') %>
+    	<h3 style="left: 30%; top: 38%"><%= yield(:title) %></h3>
+    <%elsif yield(:title) == "Mineralwasser" %>
+        <%=image_tag('mineral_bg.png', class: 'img-responsive') %>
+    	<h4 style="left: 30%"><%= yield(:title) %></h4>
+
+    <%elsif yield(:title) == "Mineral Water" %>
+
+        <%=image_tag('mineral_bg.png', class: 'img-responsive') %>
+        <h4 style="left: 35%"><%= yield(:title) %></h4>
+    <%elsif yield(:title) == 'Spirits' %>
+        <%=image_tag('spirit-wallpaper.png', class: 'img-responsive') %>
+        <h3><%= yield(:title) %></h3>
+     <%elsif yield(:title) == 'Spirituosen' %>
+        <%=image_tag('spirit-wallpaper.png', class: 'img-responsive') %>
+        <h3 style="left: 35%"><%= yield(:title) %></h3>
+    <%elsif yield(:title) == "Beer" %>
+        <%=image_tag('beer-wallpaper.png', class: 'img-responsive') %>
+        <h3><%= yield(:title) %></h3>
+    <%elsif yield(:title) == "Bier" %>
+        <%=image_tag('beer-wallpaper.png', class: 'img-responsive') %>
+        <h3 style="left: 44%;"><%= yield(:title) %></h3>
+    <%elsif yield(:title) == "Contact Us" %>
+        <%=image_tag('slider-banner-2.png', class: 'img-responsive') %>
+        <h4 style="left: 35%; top: 45%"><%= yield(:title) %></h4>
+     <%elsif yield(:title) == "Kontaktiere uns" %>
+        <%=image_tag('slider-banner-2.png', class: 'img-responsive') %>
+        <h4 style="left: 30%; top: 45%"><%= yield(:title) %></h4>
+      <%elsif yield(:title) == "Jetzt bestellen" %>
+        <%=image_tag('slider-banner-2.png', class: 'img-responsive') %>
+        <h4 style="left: 30%; top: 45%"><%= yield(:title) %></h4>
+    <%else%>
+        <%=image_tag('soft-drinks-banner.png', class: 'img-responsive') %>
+    	<h3><%= yield(:title) %></h3>
+    <%end%>
+    
+</div>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=yield(:title)  %> - DAS HÖRGERÄTE-ATELIER GMBH</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to 'DAS HÖRGERÄTE-ATELIER GMBH',  root_path, class: 'navbar-brand visible-lg', style: "color: #3EB835;"%>
+          <%= link_to 'DAS HÖRGERÄTE-ATELIER GMBH',  root_path, class: 'navbar-brand visible-xs', style: "color: #3EB835; font-size: .9em"%>
+        </div>
+        <% if cookies[:dash_horgerate] == "de" %>
+          <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left de_locale">
+          <li><%= link_to t('.home') , root_path, class: 'active'%></li>
+          <li>
+            <%= link_to t('.about') , about_path%>
+          </li>
+          <li>
+            <%= link_to t('.products') , products_categories_soft_path%>
+          </li>
+          <li>
+            <%= link_to t('.order') , order_now_path%>
+          </li>
+          <li>
+            <%= link_to t('.contact') , contact_path%>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+           <li>
+            <p style="margin-bottom: 0;">
+              <%=t('.call') %> <br>
+              <span>+4 915 779 043 003</span>              
+            </p>
+              <p class="lang">
+                <%= link_to 'DE', change_locale_path(:de), style: 'padding-right: 1em'%>|
+                <%= link_to 'EN', change_locale_path(:en), style: 'padding-left: 1em'%>
+              </p>
+           </li>
+        </ul>
+      </div>
+        <%else%>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+          <li><%= link_to t('.home') , root_path, class: 'active'%></li>
+          <li>
+            <%= link_to t('.about') , about_path%>
+          </li>
+          <li>
+            <%= link_to t('.products') , products_categories_soft_path%>
+          </li>
+          <li>
+            <%= link_to t('.order') , order_now_path%>
+          </li>
+          <li>
+            <%= link_to t('.contact') , contact_path%>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+           <li>
+            <p style="margin-bottom: 0">
+              <%=t('.call') %> <br>
+              <span>+4 915 779 043 003</span>              
+            </p>
+              <p class="lang">
+                <%= link_to 'DE', change_locale_path(:de), style: 'padding-right: 1em'%>|
+                <%= link_to 'EN', change_locale_path(:en), style: 'padding-left: 1em'%>
+              </p>
+           </li>
+        </ul>
+      </div>
+        <%end%>
+    </div>
+  </div>
+<% if yield(:home_page) == 'home' %>
+	<style type="text/css">
+		body {
+			background-color: #fff;
+			padding: 0 0 0 0;
+			margin: 31px 0 0 0;
+		}
+	</style>
+		<div id="slider">
+			<%= render 'slider' %>
+		</div>
+  
+			<%= yield %>
+
+		<%= render 'layouts/shared/footer' %>
+
+<%elsif yield(:about) == "about" %>
+  <style type="text/css">
+    body {
+      background-color: #ffffff;
+      padding: 0 0 0 0;
+      margin: 0 0 0 0;
+    }
+  </style>
+  <%= render "about_header" %>
+  <%= yield %>
+    <%= render 'layouts/shared/footer' %>
+  <%elsif yield(:product) == 'product' %>
+    <style type="text/css">
+      body {
+        background-color: #ffffff;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+    </style>
+    <%= render 'pages/shared/product' %>
+    <%= yield %>
+    <%= render 'layouts/shared/footer' %>
+
+  <%elsif yield(:page_header) == "Contact Us" %>
+   <style type="text/css">
+      body {
+        background-color: #ffffff;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+    </style>
+    <%= render 'pages/shared/product' %>
+    <%= yield %>
+    <%= render 'layouts/shared/footer' %>
+
+  <%elsif yield(:page_header) == "Order Now" %>
+   <style type="text/css">
+      body {
+        background-color: #ffffff;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+    </style>
+    <%= render 'pages/shared/product' %>
+    <%= yield %>
+    <%= render 'layouts/shared/footer' %>
+  <%else%>
+
+	<div class="container">
+	<!-- <p id="notice"><%= notice %> </p> -->
+	       <%= yield %>
+	</div>
+
+
+
+<%= render 'layouts/shared/footer' %>
+
+
+<%end%>
+<script>
+$('.carousel').carousel({
+    pause: "false"
+});
+  // $("img").lazyload({
+  //     threshold : 100,
+  //     effect : 'fadeIn',
+  // });
+
+</script>
+<script type="text/javascript">
+  $(function() {
+    // Create a rondell with the 'carousel' preset and set an option
+    // to disable the rondell while the lightbox is displayed
+    $("#rondellCarousel").rondell({
+      preset: "carousel",
+    });
+  });
+</script>
+  </body>
+</html>

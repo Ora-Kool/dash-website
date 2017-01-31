@@ -1,0 +1,35 @@
+<%= form_for(@contact, url: contact_path) do |f| %>
+	<div class="form-group row">
+		<div class="col-sm-6">
+			<%= f.text_field :first_name, class: "form-control", placeholder: t('pages.contact_us.name_holder') %>
+		</div>
+		<div class="col-sm-6">
+			<%= f.text_field :surname, class: "form-control", placeholder: "Surname" %>
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-sm-6">
+			<%= f.email_field :email, class: "form-control", placeholder: t('pages.contact_us.email_holder') %>
+		</div>
+		<div class="col-sm-6">
+			<%= f.text_field :phone_number, class: "form-control", placeholder: t('pages.contact_us.phone_holder') %>
+		</div>	    
+  	</div>
+  	<div class="form-group row">
+  		<div class="col-sm-12">
+			<%= f.text_field :subject, class: "form-control", placeholder: t('pages.contact_us.subject_holder') %>
+		</div>
+	</div>
+	<div class="form-group row">
+  		<div class="col-sm-12">
+			<%= f.text_area :content, class: "form-control", placeholder: t('pages.contact_us.content_holder') , size: '4x10'%>
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-sm-12">
+			<%= f.submit t('pages.contact_us.submit_now') , class: 'btn btn-success submit-button visible-lg' %>
+			<%= f.submit t('pages.contact_us.submit_now'), class: 'btn btn-success submit-button visible-xs col-sm-12' %>
+		</div>
+	</div>
+	
+<%end%>

@@ -1,0 +1,130 @@
+<%provide(:title, t('pages.categories.spirits_header') )  %>
+<%=content_for(:product, 'product') %>
+<div class="row" style="width: 100%">
+	<div class="col-sm-4" style="padding-left: 2rem; padding-top: 2rem">
+	 	<div class="row">
+	 		<div class="col-sm-12" style="padding-left: 5rem">
+	 			<p style="padding: 2rem; 
+	 					 background-color: #424242; 
+	 					 color: white; 
+	 					 width: 60%;
+	 					 text-transform: uppercase"><%=t('pages.categories.category') %></p>
+	 			<ul class="left-menu">
+	 				<li>
+	 					<p style="font-weight: bold"><%=t('pages.categories.soft_drinks') %> </p>
+
+	 				</li>
+	 				<hr style="margin-left: -10%; 
+	 						   width: 70%;
+	 						   margin-top: 0; ">
+	 				<ul>
+	 					<li><span>> </span><%=link_to '250ml', products_categories_soft_path %></li>
+	 					<li><span>>	</span><%=link_to '330ml', products_cans_330ml_path %></li>
+	 					<li><%=link_to t('pages.categories.pet_bottles') ,products_bottle_drinks_path  %></li>
+	 				
+	 				</ul>
+	 			</ul>
+	 			
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.energy_drinks') , products_energy_drinks_path %></li>			
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.beer_cat') , products_beer_path %></li>			
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.mineral_water') ,products_mineral_water_path %></li>
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.spirits_cat') ,products_spirit_drinks_path %></li>
+	 			</ul>
+	 		</div>
+	 	</div>
+		
+
+	</div>
+	<div class="col-sm-8" style="padding-top: 2rem">
+			<h3 class="text-center drinks">
+				SPIRITS
+				<hr>
+
+			</h3>
+			<div class="row">
+					
+					<div class="col-sm-4">
+						<%=image_tag('jackd-pack.png', style: "height: 37rem") %>
+						<div class="display">
+						<h2>Jack Daniel's Tennessee</h2>
+						<p>size: 1x70cl x alc:40%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('four-rose.png', style: "height: 25rem") %>
+						<div class="display">
+						<h2>Four Roses Yellow Label Bourbon</h2>
+						<p>size: 1x70cl, alc: 40%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('johnnie-pack.png', style: "height: 37rem") %>
+						<div class="display">
+						<h2>Johnny Walker Black</h2>
+						<p>size: 1x70cl, alc: 40%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('chivas-regal.png', style: "height: 37rem") %>
+						<div class="display">
+						<h2>Chivas Regal 18</h2>
+						<p>size: 1x70cl, alc: 40%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('jimbeam-pack.png', style: "height: 37rem") %>
+						<div class="display">
+						<h2>Jim Beam Black</h2>
+						<p>size: 1x70cl, alc: 43%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('chivas-regal-18-pack.png', style: "height: 37rem") %>
+						<div class="display">
+						<h2>Chivas Regal 18</h2>
+						<p>size: 1x70cl, alc: 40%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('jimbeam-single.png', style: "height: 40rem") %>
+						<div class="display">
+						<h2>Jim Beam Black</h2>
+						<p>size: 1x70cl, alc: 43%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('jackd.png', style: "height: 50rem") %>
+						<div class="display">
+						<h2>Jack Danels</h2>
+						<p>size: 1x70cl, alc: 40%</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('johnny-single.png', style: "height: 37rem") %>
+						<div class="display">
+						<h2>Johnny Walker</h2>
+						<p>size: 1x70cl, alc: 40%</p>
+						</div>
+					</div>
+
+					
+					<div class="col-sm-4">
+						<%=image_tag('ciroc-vodka.png', style: "height: 37rem") %>
+						<div class="display">
+						<h2>Ciroc Vodka</h2>
+						<p>size: 1x70cl, alc: 40%</p>
+						</div>
+					</div>
+					
+					
+					
+			</div>
+	</div>
+</div>

@@ -1,0 +1,64 @@
+footer {
+	height: 10rem;
+	background: #F8F8F8;
+}
+
+.carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+
+div.carousel-caption{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	bottom: 20%;
+	z-index: 10;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+a.carousel-control:hover {
+	
+	background-color: inherit;
+}
+h4.text-center {
+	color: #9e9e9e;
+}
+
+.zoom-items.home img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.zoom-items.home:hover img{
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+
+   /*-ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  */
+  z-index: 99;
+}
+.carousel.slide {
+	margin-top: -3rem;
+}
+div.new_html_code {
+      width:150px;
+      height:100px;
+      min-width:150px;
+      min-height:100px;
+      max-width:200px;
+      max-height:100px;
+      overflow:hidden;
+      display:block;
+      border:1px solid red;
+}
+
+

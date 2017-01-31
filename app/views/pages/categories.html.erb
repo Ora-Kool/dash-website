@@ -1,0 +1,110 @@
+<%provide(:title, '250ml')  %>
+<%=content_for(:product, 'product') %>
+<div class="row" style="width: 100%">
+	<div class="col-sm-4" style="padding-left: 2rem; padding-top: 2rem">
+	 	<div class="row">
+	 		<div class="col-sm-12" style="padding-left: 5rem">
+	 			<p style="padding: 2rem; 
+	 					 background-color: #424242; 
+	 					 color: white; 
+	 					 width: 60%;
+	 					 text-transform: uppercase"><%=t('.category')%> </p>
+	 			<ul class="left-menu">
+	 				<li>
+	 					<p style="font-weight: bold"><%=t('.soft_drinks')%> </p>
+
+	 				</li>
+	 				<hr style="margin-left: -10%; 
+	 						   width: 70%;
+	 						   margin-top: 0; ">
+	 				<ul>
+	 					<li><span>> </span><%=link_to '250ml', products_categories_soft_path %></li>
+	 					<li><span>>	</span><%=link_to '330ml', products_cans_330ml_path %></li>
+	 					<li><%=link_to t('.pet_bottles') ,products_bottle_drinks_path  %></li>
+	 				
+	 				</ul>
+	 			</ul>
+	 			
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('.energy_drinks') , products_energy_drinks_path %></li>
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('.beer_cat') , products_beer_path %></li>			
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('.mineral_water') ,products_mineral_water_path %></li>
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('.spirits_cat') ,products_spirit_drinks_path %></li>
+	 			</ul>
+	 		</div>
+	 		<div class="col-sm-12">
+	 			<div class="row">
+	 				<div class="col-sm-12">
+	 					<%= render 'pages/shared/advert' %>
+	 				</div>
+	 			</div>
+	 		</div>
+	 		</div>
+		
+
+	</div>
+	<div class="col-sm-8" style="padding-top: 2rem">
+			<h3 class="text-center drinks">
+				SOFT DRINKS
+				<hr>
+			</h3>
+			<div class="row">
+					<div class="col-sm-4">
+						<%=image_tag 'coca-cola-250ml.png', alt: "Coca cola", width: '100%' %>
+						<div class="display">
+						<h2>Coca Cola 250ml</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('diet-coke-250ml.png', width: '100%') %>
+						<div class="display">
+						<h2>Diet Coke 250ml</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					
+					<div class="col-sm-4">
+						<%=image_tag('mirinda-250ml.png', style: "width: 100%;") %>
+						<div class="display">
+						<h2>Mirinda 250ml</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('7up-250ml.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Mirinda 250ml</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('lipton-ice-tea-250ml.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Liptop Ice Tea 250ml</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('fanta-250ml.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Fanta 250ml</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('sprite-250ml.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Sprite Lemon Lime 250ml</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+			</div>
+	</div>
+</div>

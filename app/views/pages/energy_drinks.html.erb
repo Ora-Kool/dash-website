@@ -1,0 +1,110 @@
+<%provide(:title, t('pages.categories.energy_header'))  %>
+<%=content_for(:product, 'product') %>
+<div class="row" style="width: 100%">
+	<div class="col-sm-4" style="padding-left: 2rem; padding-top: 2rem">
+	 	<div class="row">
+	 		<div class="col-sm-12" style="padding-left: 5rem">
+	 			<p style="padding: 2rem; 
+	 					 background-color: #424242; 
+	 					 color: white; 
+	 					 width: 60%;
+	 					 text-transform: uppercase"><%=t('pages.categories.category') %> </p>
+	 			<ul class="left-menu">
+	 				<li>
+	 					<p style="font-weight: bold"><%=t('pages.categories.soft_drinks') %> </p>
+
+	 				</li>
+	 				<hr style="margin-left: -10%; 
+	 						   width: 70%;
+	 						   margin-top: 0; ">
+	 				<ul>
+	 					<li><span>> </span><%=link_to '250ml', products_categories_soft_path %></li>
+	 					<li><span>>	</span><%=link_to '330ml', products_cans_330ml_path %></li>
+	 					<li><%=link_to t('pages.categories.pet_bottles') ,products_bottle_drinks_path  %></li>
+	 				
+	 				</ul>
+	 			</ul>
+	 			
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.energy_drinks') , products_energy_drinks_path %></li>			
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.beer_cat') , products_beer_path %></li>			
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.mineral_water') ,products_mineral_water_path %></li>
+	 			</ul>
+	 			<ul class="left-menu cats">
+	 				<li><%=link_to t('pages.categories.spirits_cat') ,products_spirit_drinks_path %></li>
+	 			</ul>
+	 		</div>
+	 	</div>
+		
+
+	</div>
+	<div class="col-sm-8" style="padding-top: 2rem">
+			<h3 class="text-center drinks">
+				ENERGY DRINKS
+				<hr>
+
+			</h3>
+			<div class="row">
+					<div class="col-sm-4">
+						<%=image_tag('boost-250ml.png', width: '100%') %>
+						<div class="display">
+						<h2>Boost Energy</h2>
+						<p>24 x ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('monster-assault500ml.png', width: '100%') %>
+						<div class="display">
+						<h2>Monster Assault</h2>
+						<p>12 x 500ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('monster-khaos500ml.png', width: '100%') %>
+						<div class="display">
+						<h2>Monster Khaos</h2>
+						<p>12 x 500ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('monster-energy500ml.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Mega Monster Energy</h2>
+						<p>12 x 500ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('red-bull500.png',style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Red Bull</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('shark-energy-drink500ml.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Shark Energy</h2>
+						<p>24 x 250ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('powerade-ion4bottle.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Powerade Berry & Tropical</h2>
+						<p>12 x 500ml</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<%=image_tag('boost-energybottle.png', style: "width: 100%; padding-top: 2rem") %>
+						<div class="display">
+						<h2>Boost Energy Original</h2>
+						<p>12 x 500ml</p>
+						</div>
+					</div>
+			</div>
+	</div>
+</div>

@@ -1,0 +1,421 @@
+// Place all the styles related to the Brands controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar-fixed-top {
+	padding: 1rem;
+}
+
+ .nav.navbar-nav.navbar-left li a {
+ 	padding-left: 4rem;
+ 	color: white;
+
+
+ }
+ .nav.navbar-nav.navbar-left li a:hover {
+ 	color: #2e7d32;
+ }
+ .vimto-background {
+ 	background-image: image-url(image-path('vimto.png'));
+	height: 50rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+
+	#myCarousel {
+		position: absolute;
+		width: 100%;
+		top: 35%;
+
+		
+		.carousel-inner .item{
+			left: 20%;
+
+			 h6{
+			 	color: white;
+				margin-right: 70%;
+				font-weight: bold;
+				font-size: 1.5em;
+				background-color: #43a047;
+				padding: .6em;
+			 }
+			 p.details {
+			 	color: #fff;
+			 	font-size: 1em;
+
+			 }
+
+			 p{
+			 	color: #fff;
+			 	font-size: 1em;
+			 	margin-right: 10%;
+			 	text-align: left;
+
+			 	
+			 }
+
+		}
+	}
+ }
+ .vimto-background.item {
+ 	margin-top: 10rem;
+ }
+
+ .navbar, .navbar-fixed-top {
+   background-color: transparent;
+   background: transparent;
+}
+.nav.navbar-nav.navbar-right li p {
+	color: white;
+}
+	
+.navbar-default{
+	background: rgba(0,0,0,0.79) !important;
+    background-color: rgba(0, 0, 0, 0.79);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    border-color: red;
+    
+	/*padding: 20px 0 0px 0 !important;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;*/	
+}
+.navbar-default{
+	    border-color: #000;
+        border-top-color: rgb(231, 231, 231);
+        border-right-color: rgb(231, 231, 231);
+        border-bottom-color: rgb(231, 231, 231);
+        border-left-color: rgb(231, 231, 231);
+}
+
+.image {
+	position: relative;
+	width: 100%;
+
+	img {
+		width: 100%;
+		height: 34rem;
+	}
+
+	h2 {
+		position: absolute;
+		left: 8rem;
+		color: #ffffff;
+	}
+
+	a {
+		position: absolute;
+		top: 70%;
+		text-align: center;
+		color: red;
+		display: block;
+		color: #fff;
+		background: #3EB835;
+		z-index: 9;
+		line-height: 1em;
+		vertical-align: inherit;
+		height: 60px;
+		left: 26%;
+		width: 50%;
+		border: 0;
+		font-size: 17px;
+		transition: 0.3s ease;
+		padding: 2rem;
+
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: white;
+	}
+}
+.header-common {
+	margin-top: 0;
+	position: relative;
+
+	img {
+		width: 100%;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	h2 {
+		position: absolute;
+		color: #1b5e20;
+		bottom: 40%;
+		font-weight: 2em;
+		font-size: 5em;
+		right: 40%;
+
+	}
+	h3 {
+		position: absolute;
+		left: 39%;
+		bottom: 0%;
+		top: 45%;
+		font-size: 6em;
+		color: #fff;
+		font-stretch: expanded;
+	}
+
+	h4 {
+		position: absolute;
+		left: 39%;
+		bottom: 0%;
+		top: 55%;
+		font-size: 5em;
+		color: #fff;
+		font-stretch: expanded;
+	}
+
+	p {
+		position: absolute;
+		color: #000;
+		bottom: 25%;
+		right: 10%;
+		font-size: 1.3em;
+		letter-spacing: .1em;
+		text-align: center;
+	}
+}
+
+.contact-us > a{
+		margin-top: 5rem;
+		text-transform: uppercase;
+		text-align: center;
+		color: red;
+		display: block;
+		color: #fff;
+		background: #3EB835;
+		z-index: 9;
+		line-height: 1em;
+		vertical-align: inherit;
+		border: 0;
+		font-size: 17px;
+		transition: 0.3s ease;
+		padding-top: 1rem;
+		padding-bottom: 2.4rem;
+		width: 10em;
+		min-height: .4em;
+		max-height: .4em;
+
+}
+.contact-us a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+h3.drinks {
+	margin-right: 15rem;
+	margin-bottom: 2rem;
+	padding-bottom: 1px;
+	color: #616161;
+
+	hr {
+		margin-top: .3em;
+		border-bottom: .2em solid #43a047;
+		width: 10%;
+	}
+}
+.display {
+		display: block;
+		text-align: center;
+	h2 {
+			font-size: 2rem;
+			color: #212121;
+
+	}
+
+	h2:hover {
+		color: red;
+	}
+	p {
+		font-size: 1.5rem;
+		border-bottom: 1px solid #eeeeee;
+		padding-bottom: 4rem;
+		color: #757575;
+		font-weight: bolder;
+	}
+}
+
+ul.left-menu {
+	list-style-type: none;
+	padding-left: 0;
+	border-bottom: 1px solid #eeeeee;
+	padding: 1em 0 1em 0;
+	li p {
+		color: #212121;
+		font-size: 1.2em;
+		margin-top: 1.4em;
+		margin-right: 10em;
+	}
+
+	a:hover {
+		background-color: inherit;
+		color: #212121;
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			border-bottom: 1px solid #eeeeee;
+			width: 50%;
+			padding: 1em 0 1em 0;
+		}
+		 li a {
+		 	background-color: inherit;
+		 }
+
+
+	}
+
+}
+ul.cats li a {
+	color: #000;
+	font-weight: bold;
+}
+
+.testimonials {
+	position: relative;
+
+	 img {
+	 	width: 100%;
+	 	 filter:blur(.1em);
+	 }
+	 img:hover{
+	 	filter:blur(0em);
+	 }
+	 p {
+	 	position: absolute;
+	 	bottom: 18%;
+	 	color: #fff;
+	 	padding: 2em;
+	 	font-size: 1em;
+
+
+	 }
+	 p.bar {
+	 		color: #fff;
+	 		bottom: 2%;
+	 		left: 50%;
+	 		font-weight: bold;
+	 	}
+}
+.btn-success.submit-button{
+		text-align: center;
+		color: red;
+		display: block;
+		color: #fff;
+		background: #3EB835;
+		z-index: 9;
+		line-height: 1em;
+		vertical-align: inherit;
+		height: 50px;
+		border: 0;
+		font-size: 17px;
+		transition: .3s linear;
+		padding: 2rem;
+		border-radius: 0;
+}
+p {
+	text-align: center;
+	margin-bottom: 0;
+
+}
+
+p.lang {
+	margin: 0;
+	
+	a:hover {
+
+		text-decoration: none;
+		background-color: inherit;
+	}
+}
+
+
+li.address:before {
+	position: absolute;
+	top: 25%;
+	left: 1.3em;
+	font-family: robusta;
+	font-size: 18px;
+	content: "A";
+}
+
+li.email1:before {
+	position: absolute;
+	top: 36%;
+	left: 1em;
+	font-family: robusta;
+	font-size: 20px;
+	padding-right: 0;
+	content: "@";
+}
+li.phone1:before {
+	position: absolute;
+	top: 43%;
+	left: 1.3em;
+	font-family: robusta;
+	font-size: 18px;
+	content: "P";
+	padding-right: 2em;
+}
+li.address2:before {
+	position: absolute;
+	top: 74%;
+	left: 1.3em;
+	font-family: robusta;
+	font-size: 18px;
+	content: "A";
+}
+
+li.e:before {
+	position: absolute;
+	top: 85%;
+	left: 1em;
+	font-family: robusta;
+	font-size: 20px;
+	padding-right: 0;
+	content: "@";
+}
+li.phone2:before {
+	position: absolute;
+	top: 92%;
+	left: 1.3em;
+	font-family: robusta;
+	font-size: 18px;
+	content: "P";
+	padding-right: 2em;
+}
+
+li.email2:before {
+	position: absolute;
+	top: 90%;
+	left: 1em;
+	padding-right: 0;
+	font-family: robusta;
+	font-size: 20px;
+	content: "@";
+
+
+}
+.col-sm-4 {
+	img {
+		width: 100%;
+		height: 30rem;
+	}
+}
+.nav.navbar-nav.navbar-left.de_locale li a {
+	padding-left: 1em;
+}
+
+ 
+

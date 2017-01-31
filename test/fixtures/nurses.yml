@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_names: MyString
+  current_city: MyString
+  mobile_number: MyString
+  experience: MyString
+  formal_organization: MyString
+
+two:
+  full_names: MyString
+  current_city: MyString
+  mobile_number: MyString
+  experience: MyString
+  formal_organization: MyString
