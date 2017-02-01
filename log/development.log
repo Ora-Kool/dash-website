@@ -57147,3 +57147,13 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 1132ms (Views: 1116.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-02-01 03:31:38 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_slide-show-bottom.html.erb (3.1ms)
+  Rendered pages/home.html.erb within layouts/application (841.7ms)
+  Rendered pages/_slider.html.erb (225.6ms)
+  Rendered layouts/shared/_footer.html.erb (69.4ms)
+Completed 200 OK in 5080ms (Views: 4738.4ms | ActiveRecord: 0.0ms)
+
+
