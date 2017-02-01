@@ -33,8 +33,8 @@ class PagesController < ApplicationController
   def place_order
     @order = Order.new(order_params)
     if @order.save
-      flash[:success] = 'thanks, your order has being placed!'
-      redirect_to order_now
+      flash[:notice] = t('.order_made')
+      redirect_to :back
     else
       render 'order_now'
     end
@@ -47,8 +47,8 @@ class PagesController < ApplicationController
   def create
   	@contact = Contact.new(contact_params)
   	if @contact.save
-  		flash[:success] = 'thanks for contacting us'
-      redirect_to contact_url
+  		flash[:notice] = t('.contact_confirmed')
+      redirect_to :back
   	else
   		render 'contact_us'
 

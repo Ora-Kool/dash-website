@@ -6,6 +6,9 @@
 				<%=t('.order_intro')%>
 		</p>
 		<hr style="width: 10%; border-bottom: 2px solid #2e7d32">
+		<% if flash[:notice] %>
+    			<div class="notice text-center" style="color: #34A92E"><%= flash[:notice] %></div>
+  		<% end %>
 	</div>
 
 	<div class="col-sm-12" style="padding-left: 6em; padding-right: 4em; padding-top: 2em">

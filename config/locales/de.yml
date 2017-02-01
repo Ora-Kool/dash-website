@@ -8,6 +8,9 @@ de:
       contact:  "KONTAKTIERE UNS"
       call:   "Für Bestellungen rufen Sie bitte an"
   pages:
+    place_order:
+      contact_confirmed: 'Dank für das In Verbindung treten mit uns, unser Team ge ge zurück zu Ihnen'
+      order_made: 'Danke, Ihre Bestellung wurde platziert!'
     shared:
     contact_us:
       contact_header: "Kontaktiere uns"

@@ -29,6 +29,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
 gem 'will_paginate-bootstrap'
 gem 'i18n', '~> 0.7.0'
+gem 'sitemap', '~> 0.3.3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -29,6 +29,9 @@ en:
       contact:  "CONTACT US"
       call:   "For orders please call"
   pages:
+    place_order:
+      contact_confirmed: 'thanks for contacting us, our team will ge back to you'
+      order_made: 'thanks, your order has being placed!'
     shared:
     contact_us:
       contact_header: "Contact Us"
@@ -43,10 +46,11 @@ en:
       subject_holder: "Subject"
       content_holder: "Content"
       submit_now: "SUBMIT NOW"
+      
 
     order_now:
       order_intro: "To discuss an order with us please fill out your details below and a member of our team will
-      <br> be in touch with you as soon as possible."
+       be in touch with you as soon as possible."
       order_header:  "Order Now"
       submit_now: "SUBMIT NOW"
       nb_holder:  "Your name / Business name"
@@ -68,7 +72,7 @@ en:
       spirits_header:   "Spirits"
     about_header:
       about_intro: "We are a leading supplier for soft drinks, energe drinks and beer to wholesalers,
-      <br>shop and convenience stores"
+      shop and convenience stores"
       about_us: "is an essential beer, spirits, energy drinks, soft drinks and bottled water supplier covering EU countries and with operations worldwide.
 
     It is our job as beer, spirit, energy drinks, soft drinks and bottled water supplier, to ensure the provision of wholesale products to our customers. Our target is to fulfil all your requirements. Wholesale beer, soft drink, energy drinks, spirits and bottled water are our speciality.
@@ -81,12 +85,12 @@ en:
 very professional and friendly. Great service and great prices! "
       fantas: "“Fantastic service”"
       fantas_intro: "It’s so refreshing to deal with DAS HÖRGERÄTE-ATELIER GMBH;
-      <br> honest people and honest prices delivering a fantastic service direct 
-      <br> to all our stores!"
+       honest people and honest prices delivering a fantastic service direct 
+       to all our stores!"
       out_door: "Go Outdoors"
       one_stop:  "“My one stop shop for drinks!”"
       one_stop_intro:  "DAS HÖRGERÄTE-ATELIER GMBH are my one stop shop for soft drinks,
-      <br> energy drinks, beer, mineral water and spirits."
+       energy drinks, beer, mineral water and spirits."
       bar_dealer: "Bar dealer"
     home:
       soft_caption: "Soft drinks"
