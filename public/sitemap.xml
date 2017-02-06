@@ -7,41 +7,41 @@
   <url>
     <loc>http://dashörgeräte.com/about</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://dashörgeräte.com/products/categories/soft</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://dashörgeräte.com/products/cans/330ml</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://dashörgeräte.com/products/bottle_drinks</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://dashörgeräte.com/products/energy_drinks</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://dashörgeräte.com/products/beer</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://dashörgeräte.com/products/mineral_water</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://dashörgeräte.com/products/spirit_drinks</loc>
     <priority>0.5</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
 </urlset>

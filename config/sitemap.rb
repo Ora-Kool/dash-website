@@ -2,14 +2,14 @@ Sitemap::Generator.instance.load :host => "dashörgeräte.com" do
 
   # Sample path:
      path :root, :priority => 1
-     path :about, :priority => 0.5, :change_frequency => "weekly"
-     path :soft, :priority => 0.5, :change_frequency => "weekly"
-     path :c330ml, :priority => 0.5, :change_frequency => "weekly"
-     path :bottle_drinks, :priority => 0.5, :change_frequency => "weekly"
-     path :energy_drinks, :priority => 0.5, :change_frequency => "weekly"
-     path :beer, :priority => 0.5, :change_frequency => "weekly"
-     path :mineral_water, :priority => 0.5, :change_frequency => "weekly"
-     path :spirit_drinks, :priority => 0.5, :change_frequency => "weekly"
+     path :about, :priority => 0.5, :change_frequency => "daily"
+     path :soft, :priority => 0.5, :change_frequency => "daily"
+     path :c330ml, :priority => 0.5, :change_frequency => "daily"
+     path :bottle_drinks, :priority => 0.5, :change_frequency => "daily"
+     path :energy_drinks, :priority => 0.5, :change_frequency => "daily"
+     path :beer, :priority => 0.5, :change_frequency => "daily"
+     path :mineral_water, :priority => 0.5, :change_frequency => "daily"
+     path :spirit_drinks, :priority => 0.5, :change_frequency => "daily"
   # The specified path must exist in your routes file (usually specified through :as).
 
   # Sample path with params:

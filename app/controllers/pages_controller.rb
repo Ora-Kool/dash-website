@@ -54,6 +54,9 @@ class PagesController < ApplicationController
 
   	end
   end
+  def sitemap
+    redirect_to
+  end
 
   private
   def contact_params
@@ -65,7 +68,6 @@ class PagesController < ApplicationController
   def order_params
     params.require(:order).permit(:name_or_business, :email,
                                   :phone, :message)
-        
   end
 end
 
